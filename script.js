@@ -16,7 +16,7 @@ class SportsCar extends Car{
 		this.topSpeed = topSpeed;
 	}
    getTopSpeed(){
-	   return `${this.topSpeed}`;
+	   return this.topSpeed;
    }
 }
 
@@ -27,7 +27,7 @@ console.log(car.getMakeModel());
 
 const sportsCar = new SportsCar('Ferrari','ferr-100',500);
 cconsole.log(sportsCar.getMakeModel());
-console.log(sportsCar.getTopSeed());
+console.log(sportsCar.getTopSpeed());
 
 // Do not change the code below
 window.Car = Car;
