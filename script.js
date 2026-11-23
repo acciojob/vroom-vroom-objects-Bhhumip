@@ -26,8 +26,8 @@ const car = new Car('Hyundai','Hyd-101');
 console.log(car.getMakeModel());
 
 const sportsCar = new SportsCar('Ferrari','ferr-100',500);
-cconsole.log(SportsCar.getMakeModel());
-console.log(SportsCar.getTopSeed());
+cconsole.log(sportsCar.getMakeModel());
+console.log(sportsCar.getTopSeed());
 
 // Do not change the code below
 window.Car = Car;
